@@ -75,7 +75,7 @@ def calculate_standard_deviation(students):
 
 # main function
 if __name__ == '__main__':
-    my_students, my_table = generate_students_table(10)
+    my_students, my_table = generate_students_table(100)
     print("----------------------")
     display_highest_average(my_students)
     print("----------------------")
